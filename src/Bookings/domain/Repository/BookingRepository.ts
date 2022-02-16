@@ -1,6 +1,6 @@
 import Booking from '../Entities/Booking';
 
-export default interface BookingRepository {
+export interface BookingRepository {
 
     getAll(): Promise<Booking[]>;
 
